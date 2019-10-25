@@ -63,7 +63,7 @@ namespace WinForm_OpenSav
             {
                 try 
                 {
-                    StreamReader sw = new StreamReader(openFileDialog1.FileName);
+                    StreamReader sw = new StreamReader(openFileDialog1.FileName); 
                     string sor = sw.ReadLine();
                     string[] nev = sor.Split(';');
                     Nev.Text = nev[0];
