@@ -67,7 +67,7 @@ namespace WinForm_OpenSav
                     string sor = sw.ReadLine();
                     string[] nev = sor.Split(';');
                     Nev.Text = nev[0];
-                    Date.Text = nev[1];
+                    Date.Text = nev[1]; 
                     Hobbik.Text = nev[2];
                     if (nev[3] == "Nő")
                     {
